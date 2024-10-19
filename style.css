@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    /* overflow: auto; */
+    font-family: "Playwrite GB S", cursive;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(125, 185, 36);
+}
+
+h2{
+    color: green;
+    text-align: center;
+}
+
+#container{
+    margin: 1rem 10rem 0rem 10rem;
+}
+
+table {
+    /* font-family: arial, sans-serif; */
+    border-collapse: collapse;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+input, select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+}
+
+.button{
+    text-align: center;
+    padding: 0.8rem 0.5rem;
+    font-size: 1rem;
+    font-weight: 900;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    cursor: pointer;
+    
+}
+
+.button:hover{
+    background-color: whitesmoke;
+    color:green ;
+}
+
+.btn{
+    padding: 0.2rem 1rem; 
+    background-color: white;
+    border-radius: 5px;
+}
+
+.deleteCell{
+    width: 100px;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 1024px) {
+    #container{
+        margin: 1rem;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    h2{
+        font-size: 1rem;
+    }
+
+    .button{
+        padding: 0.5rem 0.5rem;
+        font-size: 0.8rem;
+        font-weight: 900;
+        cursor: pointer;
+    }
+
+    table{
+        font-size: 0.8rem;
+    }
+
+    .deleteCell{
+        width: 50px;
+    }
+
+}
