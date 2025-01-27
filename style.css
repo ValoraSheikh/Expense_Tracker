@@ -58,24 +58,24 @@ input, select {
         box-sizing: border-box;
 }
 
-.button{
-    text-align: center;
-    padding: 0.8rem 0.5rem;
-    font-size: 1rem;
-    font-weight: 900;
-    background-color: green;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    margin-top: 1rem;
-    cursor: pointer;
-    
-}
+    .button{
+        text-align: center;
+        padding: 0.8rem 0.5rem;
+        font-size: 1rem;
+        font-weight: 900;
+        background-color: green;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        margin-top: 1rem;
+        cursor: pointer;
+        
+    }
 
-.button:hover{
-    background-color: whitesmoke;
-    color:green ;
-}
+    .button:hover{
+        background-color: whitesmoke;
+        color:green ;
+    }
 
 .btn{
     padding: 0.2rem 1rem; 
